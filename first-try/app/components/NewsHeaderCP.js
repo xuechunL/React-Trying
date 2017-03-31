@@ -1,7 +1,7 @@
 // NewsHeaderCP.js
 
 import React from 'react';
-import imageLogo from './images/y18.gif';
+import imageLogo from './images/react_logo.png';
 import './NewsHeaderCP.css';
 import '../app.css';
 
