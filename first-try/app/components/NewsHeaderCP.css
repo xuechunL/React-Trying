@@ -1,0 +1,38 @@
+.newsHeader {
+  align-items: center;
+  background: #5DAC81;
+  color: black;
+  display: flex;
+  font-size: 10pt;
+  padding: 10px;
+}
+
+.newsHeader-logo {
+  height: 18px;
+  margin-right: 10px;
+  border: 1px solid white;
+  flex-basis: 18px; 
+}
+
+.newsHeader-textLink {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.newsHeader-title {
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.newsHeader-nav {
+  flex-grow: 1;
+  margin-left: 30px;
+}
+
+.newsHeader-navLink:not(:first-child)::before {
+  content: ' | ';
+}
+
+.newsHeader-login {
+  margin-right: 5px;
+}
