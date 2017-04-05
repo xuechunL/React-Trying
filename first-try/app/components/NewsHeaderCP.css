@@ -1,16 +1,15 @@
 .newsHeader {
+  display: flex;
   align-items: center;
+  padding: 10px;
   background: #5DAC81;
   color: black;
-  display: flex;
   font-size: 10pt;
-  padding: 10px;
 }
 
 .newsHeader-logo {
   height: 18px;
   margin-right: 10px;
-  // border: 1px solid white;
   border-radius: 50%;
   flex-basis: 18px; 
 }
