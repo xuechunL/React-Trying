@@ -12,7 +12,7 @@ export default class NewsItem extends React.Component {
 	    return URL.parse(this.props.item.url).hostname;
 	}
 
-  	getTitle() {
+  getTitle() {
 	    return ( < div className = "newsItem-title" >
 	      < a className = "newsItem-titleLink"
 	      href = { this.props.item.url ? this.props.item.url : 'https://news.ycombinator.com/item?id=' + this.props.item.id } > { this.props.item.title } < /a> {

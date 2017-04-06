@@ -1,0 +1,35 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+}
+
+#root {
+	width: 50%;
+	margin: 30px auto;
+}
+
+input {
+	border-radius: 3px;
+	border: none;
+}
+
+button {
+	height: 20px;
+	margin-left: 10px;
+}
+
+ul {
+	margin-top: 20px;
+	padding-left: 16px;
+}
+
+.footer{
+	margin-top: 40px;
+	font-size: 1.2rem;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}

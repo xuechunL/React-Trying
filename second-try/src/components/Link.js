@@ -13,7 +13,7 @@ const Link = ({ active, children, onClick }: Props) => {
   }
 
   return (
-    <a href="#"
+    <a className="link" href="#"
        onClick={e => {
          e.preventDefault()
          onClick()
